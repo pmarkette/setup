@@ -14,7 +14,7 @@ curl https://raw.github.com/creationix/nvm/master/install.sh | sh
 
 sudo apt-get update
 sudo apt-get install -y python-software-properties python g++ make
-sudo add-apt-repository -y ppa:chris-lea.node.js
+sudo add-apt-repository -y ppa:chris-lea/node.js
 sudo apt-get update
 sudo apt-get install -y nodejs
 
@@ -54,3 +54,4 @@ ln -sb dotfiles/.bashrc .
 ln -sb dotfiles/.bashrc_custom .
 ln -sf dotfiles/.emacs.d .
 
+alias em='emacs -nw'
